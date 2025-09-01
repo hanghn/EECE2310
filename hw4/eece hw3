@@ -1,0 +1,41 @@
+
+li s1, 0                #s1 register, i=0
+li s2, 0                #s2 register, sum=0 
+li t0, 10               # loop limit
+li t1, 0x55552222       # base address of L
+
+loop:
+    bge s1, t0, done    # if i >= 10, loop ends
+    slli t2, s1, 2      # calculate offset = i * 4 
+    add t2, t1, t2      # address of L[i] = base + offset
+    lw t3, 0(t2)        # load L[i] 
+    add s2, s2, t3      # sum = sum + L[i]
+    addi s1, s1, 1      # i = i + 1
+    jal zero, loop      # repeat loop
+
+done:
+
+
+ddsgg
+
+    # Check Case 1 (c==1)
+    li t1, 1
+    beq t0, t1, case1
+
+    # Check Case 2 (c==2)
+    li t1, 2
+    beq t0, t1, case2
+
+    # Default case: x++
+    addi s0, s0, 1
+    jal zero, done
+
+case1:
+    add s0, s1, s2   # x = y + z
+    jal zero, done
+
+case2:
+    sub s0, s1, s2   # x = y - z
+    jal zero, done
+
+done:
