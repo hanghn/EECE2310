@@ -82,9 +82,9 @@ Top-level files:
 - **RISC-V assembler** — to produce `.hex` from `.asm`
 - **Microsoft Word** — lab reports (template provided)
 
-## Lab report template structure
+## Lab report structure
 
-The required template (`EECE2311-LabReportTemplate.docx`) expects:
+The required structure expects:
 
 1. Objective
 2. Background / theory
