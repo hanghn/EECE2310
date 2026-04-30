@@ -18,19 +18,6 @@ Lecture portion of the digital-logic + RISC-V architecture course. Paired with *
 | L10 | Single-Cycle RISC-V Microarchitecture |
 | L11 | Assembly Programming in RISC-V |
 
-## Folder structure
-
-- `EECE2310_L*.pdf` — lecture slide decks
-- `EECE2310_SM25_Syllabus.pdf` — course syllabus
-- `EECE2310_RISC-V References.pdf` — RISC-V instruction set reference
-- `RISC-V Exams Tables (1).pdf` — exam-allowed reference tables
-- `Intel FPGA Integer Arithmetic IP Cores*.pdf` — supplementary FPGA references
-- `hw1/` … `hw4/` — homework assignments (each contains the problem PDF and my submission in DOCX + PDF)
-- `lab7_single_cycle_processor/` — single-cycle processor design files (Quartus block-design `.bdf` + RISC-V assembly `.asm`)
-- `textbooks/` — reference textbooks
-- `mid2 review.docx` — midterm 2 review notes
-- `Trace proof.pdf` — trace proof reference
-- `Boxun's Bad Ideas.pdf` — class notes/reference
 
 ## Tools used
 
