@@ -38,4 +38,3 @@ Lecture portion of the digital-logic + RISC-V architecture course. Paired with *
 
 - RISC-V instruction encoding: see `EECE2310_RISC-V References.pdf`
 - Hex / binary conversion: `Hexadecimal-Number-System.webp`
-- For the lab work that goes with this course: `~/Documents/EECE2311 - Lab/`
